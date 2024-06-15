@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:id="@+id/regis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Daftar"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="339dp"
+        android:layout_height="209dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/regis"
+        app:srcCompat="@drawable/loginregister" />
+
+    <EditText
+        android:id="@+id/namareg"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/input_bg"
+        android:ems="10"
+        android:fontFamily="@font/poppins"
+        android:hint="Nama"
+        android:inputType="text"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="10dp"
+        android:textColorHint="@color/purple"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <EditText
+        android:id="@+id/emailreg"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:fontFamily="@font/poppins"
+        android:hint="Email"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="10dp"
+        android:textColorHint="@color/purple"
+        android:textSize="16sp"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/input_bg"
+        app:layout_constraintEnd_toEndOf="@+id/namareg"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/namareg"
+        app:layout_constraintTop_toBottomOf="@+id/namareg" />
+
+    <EditText
+        android:id="@+id/pwreg"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:fontFamily="@font/poppins"
+        android:hint="Password"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="10dp"
+        android:textColorHint="@color/purple"
+        android:textSize="16sp"
+        android:inputType="textPassword"
+        android:background="@drawable/input_bg"
+        app:layout_constraintEnd_toEndOf="@+id/emailreg"
+        app:layout_constraintStart_toStartOf="@+id/emailreg"
+        app:layout_constraintTop_toBottomOf="@+id/emailreg" />
+
+    <EditText
+        android:id="@+id/konfirmpw"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:fontFamily="@font/poppins"
+        android:hint="Konfirmasi Password"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="10dp"
+        android:textColorHint="@color/purple"
+        android:textSize="16sp"
+        android:inputType="textPassword"
+        android:background="@drawable/input_bg"
+        app:layout_constraintEnd_toEndOf="@+id/pwreg"
+        app:layout_constraintStart_toStartOf="@+id/pwreg"
+        app:layout_constraintTop_toBottomOf="@+id/pwreg" />
+
+    <Button
+        android:id="@+id/btnregis"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/signup"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/tosca"
+        app:layout_constraintEnd_toEndOf="@+id/konfirmpw"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="@+id/konfirmpw"
+        app:layout_constraintTop_toBottomOf="@+id/konfirmpw" />
+
+    <TextView
+        android:id="@+id/alreadyHaveAccountTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/poppins"
+        android:text="Sudah Punya akun? Masuk"
+        android:textColor="@color/navy"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnregis" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

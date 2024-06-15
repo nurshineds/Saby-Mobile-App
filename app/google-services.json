@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "695474303070",
+    "project_id": "sabyapp-ddda8",
+    "storage_bucket": "sabyapp-ddda8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:695474303070:android:80cc61b2c4591e22f044cf",
+        "android_client_info": {
+          "package_name": "com.example.sabyapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUJ_utlXuoluz22LLseV0Jf-7oPYsILCQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

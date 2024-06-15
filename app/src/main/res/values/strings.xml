@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SabyApp</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="uid">Uid</string>
+    <string name="login">Masuk</string>
+    <string name="signup">Daftar</string>
+    <string name="logout">Keluar</string>
+</resources>
